@@ -10,10 +10,10 @@ Classification of plants of Southeast Asia is a track in the competition with Ba
 ### Before balancing data
 Models  | Score | Params
 ------------- | ------------- | ------------
-Fine-tuned VGG16 (from layer 15)  | 0.93339 | 
-Fine-tuned VGG16 (all layers)   | 0.91695 | 
-Fine-tuned Resnet50 (all layers)   | 0.92387 | 
-Fine-tuned InceptionResNetV2 (from layer 618)   | 0.94809 | 
+Fine-tuned VGG16 (from layer 15)  | 0.93339 | 13,589,402 
+Fine-tuned VGG16 (all layers)   | 0.91695 | 21,223,898
+Fine-tuned Resnet50 (all layers)   | 0.92387 | 24,065,818
+Fine-tuned InceptionResNetV2 (from layer 618)   | 0.94809 | 24,342,298
 Fine-tuned InceptionResNetV2 (all layers)   | 0.80968 | 
 Fine-tuned InceptionV3 (all layers)   | 0.72923 |
 Fine-tuned DenseNet201 (all layers)   | 0.76211 | 
@@ -22,11 +22,11 @@ Fine-tuned DenseNet201 (all layers)   | 0.76211 |
 
 Models  | Score | Params
 ------------- | ------------- | ------------
-Fine-tuned VGG16 (from layer 15)  | 0.99826 |  
-Fine-tuned VGG16 (all layers)   | 0.99913 | 
-Fine-tuned Resnet50 (all layers)   |  | 
+Fine-tuned VGG16 (from layer 15)  | 0.99826 | 13,589,402 
+Fine-tuned VGG16 (all layers)   | 0.99913 | 21,223,898
+Fine-tuned Resnet50 (all layers)   | 0.99826 | 24,065,818
 Retrain Resnet50 (Don't use pretrain) | |23,587,866
-Fine-tuned InceptionResNetV2 (from layer 618)   | 0.99913 | 
+Fine-tuned InceptionResNetV2 (from layer 618)   | 0.99913 | 24,342,298
 Retrain InceptionResNetV2  (Don't use pretrain)  | 1.00000 | 54,316,154
 Fine-tuned InceptionV3 (all layers)   |  |
 Fine-tuned DenseNet201 (all layers)   |  | 
