@@ -25,7 +25,8 @@ Models  | Score | Params
 Fine-tuned VGG16 (from layer 15)  | 0.99826 |  
 Fine-tuned VGG16 (all layers)   | 0.99913 | 
 Fine-tuned Resnet50 (all layers)   |  | 
+Retrain Resnet50 (Don't use pretrain) | |23,587,866
 Fine-tuned InceptionResNetV2 (from layer 618)   | 0.99913 | 
-Retrain InceptionResNetV2  (Don't use pretrain)  | 1.00000 | 
+Retrain InceptionResNetV2  (Don't use pretrain)  | 1.00000 | 54,316,154
 Fine-tuned InceptionV3 (all layers)   |  |
 Fine-tuned DenseNet201 (all layers)   |  | 
