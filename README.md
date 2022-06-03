@@ -14,9 +14,9 @@ Fine-tuned VGG16 (from layer 15)  | 0.93339 | 13,589,402
 Fine-tuned VGG16 (all layers)   | 0.91695 | 21,223,898
 Fine-tuned Resnet50 (all layers)   | 0.92387 | 24,065,818
 Fine-tuned InceptionResNetV2 (from layer 618)   | 0.94809 | 24,342,298
-Fine-tuned InceptionResNetV2 (all layers)   | 0.80968 | 
-Fine-tuned InceptionV3 (all layers)   | 0.72923 |
-Fine-tuned DenseNet201 (all layers)   | 0.76211 | 
+Fine-tuned InceptionResNetV2 (all layers)   | 0.80968 | 55,076,474
+Fine-tuned InceptionV3 (all layers)   | 0.72923 | 22,830,778
+Fine-tuned DenseNet201 (all layers)   | 0.76211 | 19,089,818
 
 ### After balancing data
 
