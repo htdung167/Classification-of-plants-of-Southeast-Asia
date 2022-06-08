@@ -29,5 +29,5 @@ Retrain Resnet50 (Don't use pretrain) | 0.99134 |23,587,866
 Fine-tuned InceptionResNetV2 (from layer 618)   | 0.99913 | 24,342,298
 Retrain InceptionResNetV2  (Don't use pretrain)  | 1.00000 | 54,316,154
 Fine-tuned InceptionV3 (all layers)   |  0.98269 | 22,830,778
-Fine-tuned DenseNet201 (all layers)   |  | 19,089,818
+Fine-tuned DenseNet201 (all layers)   | 0.93944 | 19,089,818
 Retrain ResNet101V2 | | 42,582,170
