@@ -33,6 +33,18 @@ Fine-tuned DenseNet201 (all layers)   | 0.93944 | 19,089,818 |
 Retrain ResNet101V2 | 0.99567 | 42,582,170 |
 
 ## How to run
-
+First way:
+- Git clone: 
+```
+  git clone https://github.com/htdung167/Classification-of-plants-of-Southeast-Asia.git
+```
+- Create 'saved_models' folder in flask_api.
+- Download trained model from [drive](https://drive.google.com/drive/folders/1G9TeimqzQSZJeuzZy646MJOFjQYXJ7B6?usp=sharing), and put it in saved_models.
+- Run:
+```
+  cd flask_api 
+  python serve.py
+``` 
 
 Or using docker to easily run project:
+
