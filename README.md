@@ -87,5 +87,5 @@ Retrain ResNet101V2 | 0.99567 | 42,582,170 |
   * **Code:** 200 <br>
   * **Content:** `{ "success" : false }`
 * **Sample with Postman:**
-  
+![postman_sample](sample_postman.png)
 
