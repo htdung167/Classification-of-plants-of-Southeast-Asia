@@ -33,19 +33,56 @@ Fine-tuned DenseNet201 (all layers)   | 0.93944 | 19,089,818 |
 Retrain ResNet101V2 | 0.99567 | 42,582,170 |
 
 ## How to run
-First way:
+### 1. First way:
 - Git clone: 
 ```
   git clone https://github.com/htdung167/Classification-of-plants-of-Southeast-Asia.git
 ```
 - Create 'saved_models' folder in flask_api.
 - Download trained model from [drive](https://drive.google.com/drive/folders/1G9TeimqzQSZJeuzZy646MJOFjQYXJ7B6?usp=sharing), and put it in saved_models.
+- Create env with conda:
+```
+  cd Classification-of-plants-of-Southeast-Asia
+  conda create -n <env_name>
+  conda activate <env_name>
+  conda install pip
+  pip install -r requirements.txt
+```
 - Run:
 ```
-  pip install -r requirements.txt
   cd flask_api 
   python serve.py
 ```
 
-Or using docker to easily run project:
+### 2. Or using docker to easily run project:
+- Build docker image:
+```
+  docker build --tag <image_name>:<image_tag> .
+```
+- Run docker container:
+```
+  docker run -d -p 5000:5000 --name <container_name> <image_name>:<image_tag>
+```
+
+## API Calling
+- URL:
+```
+  /predict
+```
+- Method:
+```
+  POST
+```
+- URL Params:
+```
+  image:[file]
+```
+- Success Respone: <br>
+  Code: 200 <br>
+  Content: ```{ "success" : true , "result" : { <10 predicts with the highest probability> } }```
+- Error Respone: <br>
+  Code: 200 <br>
+  Content: ```{ "success" : false }```
+- Sample with Postman:
+  
 
