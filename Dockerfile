@@ -8,7 +8,7 @@ RUN pip3 install -r requirements.txt
 
 COPY . /app/
 
-RUN base prepare.sh 
+RUN bash prepare.sh 
 # Đã cd vào flask api
 
 CMD [ "python3", "serve.py"]
