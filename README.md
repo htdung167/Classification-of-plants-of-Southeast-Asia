@@ -37,12 +37,15 @@ Retrain ResNet101V2 | 0.99567 | 42,582,170 |
 ```
   git clone https://github.com/htdung167/Classification-of-plants-of-Southeast-Asia.git
 ```
+- cd:
+```
+  cd Classification-of-plants-of-Southeast-Asia/flask_api
+```
 ### 1. First way:
 - Create 'saved_models' folder in flask_api.
 - Download trained model from [drive](https://drive.google.com/drive/folders/1G9TeimqzQSZJeuzZy646MJOFjQYXJ7B6?usp=sharing), and put it in saved_models.
 - Create env with conda:
 ```
-  cd Classification-of-plants-of-Southeast-Asia
   conda create -n <env_name>
   conda activate <env_name>
   conda install pip
@@ -55,10 +58,6 @@ Retrain ResNet101V2 | 0.99567 | 42,582,170 |
 ```
 
 ### 2. Or using docker to easily run project:
-- cd:
-```
-  cd Classification-of-plants-of-Southeast-Asia/flask_api
-```
 - Build docker image:
 ```
   docker build --tag <image_name>:<image_tag> .
