@@ -66,23 +66,23 @@ Retrain ResNet101V2 | 0.99567 | 42,582,170 |
 
 ## API Calling
 - URL:
-```
+`
   /predict
-```
+`
 - Method:
-```
+`
   POST
-```
+`
 - URL Params:
-```
+`
   image:[file]
-```
+`
 - Success Respone: <br>
   Code: 200 <br>
-  Content: ```{ "success" : true , "result" : { <10 predicts with the highest probability> } }```
+  Content: `{ "success" : true , "result" : { <10 predicts with the highest probability> } }`
 - Error Respone: <br>
   Code: 200 <br>
-  Content: ```{ "success" : false }```
+  Content: `{ "success" : false }`
 - Sample with Postman:
   
 
