@@ -6,7 +6,7 @@ The International Society of Data Scientists (or The ISODS), registered as a Mas
 #### About track
 Classification of plants of Southeast Asia is a track in the competition with Bali26 dataset. Bali26 is an image dataset dedicated to ethnobotany, the study of the interaction between people and plants. Bali26 is the first machine-vision ready image collection of ethnobotanically significant flora of south-east Asia, collected on the island of Bali in 2020 (and amended in 2021) together with Balinese residents with intimate local knowledge in coordination with expertise from the Indonesia National Research and Innovation Agency.
 
-## Results
+## Results on Kaggle
 ### Before balancing data
 Models  | Score | Params 
 ------------- | ------------- | ------------
@@ -31,3 +31,8 @@ Retrain InceptionResNetV2  (Don't use pretrain)  | 1.00000 | 54,316,154 | 0.9997
 Fine-tuned InceptionV3 (all layers)   |  0.98269 | 22,830,778 |
 Fine-tuned DenseNet201 (all layers)   | 0.93944 | 19,089,818 |
 Retrain ResNet101V2 | 0.99567 | 42,582,170 |
+
+## How to run
+
+
+Or using docker to easily run project:
