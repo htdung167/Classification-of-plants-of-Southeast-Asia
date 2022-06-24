@@ -32,7 +32,7 @@ Fine-tuned InceptionV3 (all layers)   |  0.98269 | 22,830,778 |
 Fine-tuned DenseNet201 (all layers)   | 0.93944 | 19,089,818 |
 Retrain ResNet101V2 | 0.99567 | 42,582,170 |
 
-## How to run
+# How to run
 - Git clone: 
 ```
   git clone https://github.com/htdung167/Classification-of-plants-of-Southeast-Asia.git
