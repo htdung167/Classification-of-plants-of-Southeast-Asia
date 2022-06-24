@@ -43,8 +43,9 @@ First way:
 - Run:
 ```
   cd flask_api 
+  pip install -r requirements.txt
   python serve.py
-``` 
+```
 
 Or using docker to easily run project:
 
