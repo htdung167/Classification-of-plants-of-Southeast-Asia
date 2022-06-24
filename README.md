@@ -3,7 +3,7 @@ This is the 3rd International Competition in Data Science & Artificial Intellige
 ## Overview
 #### About ISODS
 The International Society of Data Scientists (or The ISODS), registered as a Massachusetts non-profit, is a professional organization for Data Science and AI practitioners and researchers, which may include Data Scientists, Machine Learning Scientists, AI Scientists, Data Analysts, Data Engineers, Software Engineers, Risk Analysts, Actuaries, Business Analysts, and more, who apply Data Science and AI at work. ISODS promotes Data Science and AI domestically in the United States as well as internationally via activities such as competitions, conferences, training, professional exams, and publications.
-#### About track
+#### About track: [Link](https://www.kaggle.com/competitions/classification-of-plants-of-southeast-asia/)
 Classification of plants of Southeast Asia is a track in the competition with Bali26 dataset. Bali26 is an image dataset dedicated to ethnobotany, the study of the interaction between people and plants. Bali26 is the first machine-vision ready image collection of ethnobotanically significant flora of south-east Asia, collected on the island of Bali in 2020 (and amended in 2021) together with Balinese residents with intimate local knowledge in coordination with expertise from the Indonesia National Research and Innovation Agency.
 
 ## Results on Kaggle
