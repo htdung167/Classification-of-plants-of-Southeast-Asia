@@ -21,13 +21,13 @@ Fine-tuned DenseNet201 (all layers)   | 0.76211 | 19,089,818
 ### After balancing data
 
 Models  | Score | Params | Private Score
-------------- | ------------- | ------------
-Fine-tuned VGG16 (from layer 15)  | 0.99826 | 13,589,402 
-Fine-tuned VGG16 (all layers)   | 0.99913 | 21,223,898
-Fine-tuned Resnet50 (all layers)   | 0.99826 | 24,065,818
-Retrain Resnet50 (Don't use pretrain) | 0.99134 |23,587,866
-Fine-tuned InceptionResNetV2 (from layer 618)   | 0.99913 | 24,342,298
+------------- | ------------- | ------------ | ---------
+Fine-tuned VGG16 (from layer 15)  | 0.99826 | 13,589,402 |
+Fine-tuned VGG16 (all layers)   | 0.99913 | 21,223,898 |
+Fine-tuned Resnet50 (all layers)   | 0.99826 | 24,065,818 |
+Retrain Resnet50 (Don't use pretrain) | 0.99134 |23,587,866 |
+Fine-tuned InceptionResNetV2 (from layer 618)   | 0.99913 | 24,342,298 |
 Retrain InceptionResNetV2  (Don't use pretrain)  | 1.00000 | 54,316,154 | 0.99971 (12/36)
-Fine-tuned InceptionV3 (all layers)   |  0.98269 | 22,830,778
-Fine-tuned DenseNet201 (all layers)   | 0.93944 | 19,089,818
-Retrain ResNet101V2 | 0.99567 | 42,582,170
+Fine-tuned InceptionV3 (all layers)   |  0.98269 | 22,830,778 |
+Fine-tuned DenseNet201 (all layers)   | 0.93944 | 19,089,818 |
+Retrain ResNet101V2 | 0.99567 | 42,582,170 |
