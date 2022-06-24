@@ -42,8 +42,8 @@ First way:
 - Download trained model from [drive](https://drive.google.com/drive/folders/1G9TeimqzQSZJeuzZy646MJOFjQYXJ7B6?usp=sharing), and put it in saved_models.
 - Run:
 ```
-  cd flask_api 
   pip install -r requirements.txt
+  cd flask_api 
   python serve.py
 ```
 
