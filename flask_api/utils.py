@@ -12,12 +12,18 @@ from tensorflow.keras.preprocessing.image import img_to_array
 # Load model
 def _load_model():
     # os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
-    model_path = os.path.join("./saved_models", hp.MODEL_NAME)
+    # abpath = os.path.abspath(".")
+    try:
+        model_path = os.path.join("./flask_api/saved_models", hp.MODEL_NAME)
+        with tf.device('/cpu:0'):
+            model = tf.keras.models.load_model(model_path)     
+    except:
+        model_path = os.path.join("./saved_models", hp.MODEL_NAME)
+        with tf.device('/cpu:0'):
+            model = tf.keras.models.load_model(model_path)
+    return model
     # print(model_path)
-    with tf.device('/cpu:0'):
-        model = tf.keras.models.load_model(model_path)
-        print("Load model completed!")
-        return model
+    
 
 # Pre process image
 def _preprocess_image(img, shape):
