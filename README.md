@@ -53,7 +53,6 @@ Retrain ResNet101V2 | 0.99567 | 42,582,170 |
 ```
 - Run:
 ```
-  cd flask_api 
   python serve.py
 ```
 
