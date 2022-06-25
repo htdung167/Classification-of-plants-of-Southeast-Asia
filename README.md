@@ -46,7 +46,7 @@ Retrain ResNet101V2 | 0.99567 | 42,582,170 |
 - Download trained model from [drive](https://drive.google.com/drive/folders/1G9TeimqzQSZJeuzZy646MJOFjQYXJ7B6?usp=sharing), and put it in saved_models.
 - Create env with conda:
 ```
-  conda create -n <env_name>
+  conda create -n <env_name> python=3.7
   conda activate <env_name>
   conda install pip
   pip install -r requirements.txt
